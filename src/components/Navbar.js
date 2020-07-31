@@ -10,19 +10,19 @@ class Navbar extends React.Component{
     Levian Doughnuts IMS
   </NavLink>
   <NavLink to="/products" className="item">
-    Products
+    <i className="shopping basket big icon"></i>Products
   </NavLink>
   <NavLink to="/customers" className="item">
-    Customers
+  <i className="users big icon"></i>Customers
   </NavLink>
   <NavLink to="/delivery" className="item">
-    Delivery
+  <i className="truck big icon"></i> Delivery
   </NavLink>
   <NavLink to="/orders" className="item">
-    Orders
+  <i className="newspaper big icon"></i>Orders
   </NavLink>
   <NavLink to="/production" className="item">
-    Production
+    <i className="chart line big icon"></i>Production
   </NavLink>
   </div>
             </div>

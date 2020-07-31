@@ -4,7 +4,7 @@ class Home extends React.Component{
     render(){
         return (
             <div>
-                Welcome to the Levian IMS landing page
+                <h4>Welcome to the Levian IMS landing page</h4>
             </div>
         )
     }
