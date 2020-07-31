@@ -4,7 +4,7 @@ class Delivery extends React.Component{
     render(){
         return (
             <div>
-                <h4>This is the Delivery page</h4>
+                <h4>Delivery</h4>
             </div>
         )
     }

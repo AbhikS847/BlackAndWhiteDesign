@@ -7,16 +7,16 @@ import Customers from './components/Customers';
 import Delivery from './components/Delivery';
 import Orders from './components/Orders';
 import Production from './components/Production';
-
+import './App.css';
 
 class App extends React.Component{
     render(){
         return (
-            <div className="">
+            <div className="App">
             <Router>
             <div className="container">
             <div className="row">
-            <div className="col">
+            <div className="col-auto">
             <Navbar></Navbar>
             </div>
             <div className="col">

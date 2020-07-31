@@ -4,7 +4,7 @@ class Customers extends React.Component{
     render(){
         return (
             <div>
-                <h4>This is the Customers page</h4>
+                <h4>Customers</h4>
             </div>
         )
     }
