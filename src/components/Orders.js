@@ -5,6 +5,8 @@ class Orders extends React.Component{
         return (
             <div>
                 <h4>Orders</h4>
+                <hr></hr>
+                <p><b>No orders have been placed at this time</b></p>
             </div>
         )
     }
