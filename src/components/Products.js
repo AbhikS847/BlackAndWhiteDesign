@@ -1,11 +1,13 @@
 import React from 'react';
 import '../App.css';
+import ProductNavbar from './ProductNavbar';
 
 class Products extends React.Component{
     render(){
         return (
             <div className="App">
                 <h4>Products</h4>
+                <ProductNavbar />
                 <hr />
                 <div className="" id="boxes">
                 <h5><b>Details</b></h5>

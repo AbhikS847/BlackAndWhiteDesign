@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Home from './components/Home';
 import Products from './components/Products';
+import AddProduct from './components/AddProduct';
+import EditProduct from './components/EditProduct';
 import Customers from './components/Customers';
 import Delivery from './components/Delivery';
 import Orders from './components/Orders';
@@ -26,6 +28,8 @@ class App extends React.Component{
             <Route path="/delivery" component={Delivery} />
             <Route path="/orders" component={Orders} />
             <Route path="/production" component={Production} />
+            <Route path="/add/product" component={AddProduct}></Route>
+            <Route path="/edit/:productID" component={EditProduct}></Route>
             </div>
             </div>
             </div>
