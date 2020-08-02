@@ -1,5 +1,23 @@
 #boxes{
-    
+}
+
+
+#sidebarMenu{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--text-color);
+  background: var(--bg-color);
+  position: relative;
+}
+
+#brandFont{
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  position: relative;
+  color:#ffff;
 }
 
 /* FONT IMPORTS */
@@ -45,6 +63,7 @@
 }
 
 body {
+  font-family: 'Roboto', sans-serif;
     font-size: 1em;
     font-weight: 400;
     line-height: 1.5;

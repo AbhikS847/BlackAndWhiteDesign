@@ -5,9 +5,9 @@ class Navbar extends React.Component{
     render(){
         return (
             <div>
-            <div className="ui secondary vertical pointing menu">
+            <div className="ui secondary vertical pointing menu" id="sidebarMenu">
   <NavLink to="/" className="item">
-    Levian Doughnuts IMS
+    Levain Doughnuts App
   </NavLink>
   <NavLink to="/products" className="item">
     <i className="shopping basket big icon"></i>Products

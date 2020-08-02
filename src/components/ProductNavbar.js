@@ -5,7 +5,7 @@ class ProductNavbar extends React.Component{
     render(){
         return (
             <div>
-            <div className="ui secondary horizontal pointing menu">
+            <div className="ui secondary horizontal pointing menu" id="sidebarMenu">
   <NavLink to="/products" className="item">
     <i className="grey shopping bag big icon"></i>All products
   </NavLink>

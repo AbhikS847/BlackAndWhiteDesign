@@ -9,12 +9,24 @@ import Customers from './components/Customers';
 import Delivery from './components/Delivery';
 import Orders from './components/Orders';
 import Production from './components/Production';
+import Footer from './components/Footer';
+import levainLogo_White from "./assets/levainLogo_White.png";
 import './App.css';
 
 class App extends React.Component{
     render(){
         return (
             <div className="App">
+            <div class="ui inverted segment">
+  <div className="ui inverted secondary menu">
+  <a href="https://levain.com.au/" className="item">
+  <h2 className="" id="brandFont"><img src={levainLogo_White} width="120px" alt="Levain logo"></img></h2>
+  </a>
+  <div className="right menu">
+  <a href="https://levain.com.au/contact" className="item" style={{fontFamily:"Roboto"}}><i className="at envelope big icon"></i>Contact</a>
+  </div>
+  </div>
+</div>
             <Router>
             <div className="container">
             <div className="row">
@@ -33,6 +45,8 @@ class App extends React.Component{
             </div>
             </div>
             </div>
+            <br></br>
+            <Footer></Footer>
             </Router>
             </div>
         )
